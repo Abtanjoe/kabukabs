@@ -1,6 +1,9 @@
 import React from "react";
 import Teamimages from './Teamimages';
-import teamImgOne from './images/Franklin Fache-1.jpg';
+import teamImgOne from './images/Franklin Fache-5.jpg';
+import teamImgTwo from './images/software engineer 1.jpg';
+import teamImgThree from './images/fullstack ethereum 1.jpg';
+
 
 const Team = () => {
     return(
@@ -13,21 +16,18 @@ const Team = () => {
                 </div>
                 <div className="allMembers">
                 <Teamimages 
-                img={teamImgOne} 
+                img={teamImgTwo} 
+                teamName="frank" 
+                occupation="Software Engineer" />
+                <Teamimages 
+                img={teamImgThree} 
                 teamName="frank" 
                 occupation="Software Engineer" />
                 <Teamimages 
                 img={teamImgOne} 
                 teamName="frank" 
                 occupation="Software Engineer" />
-                <Teamimages 
-                img={teamImgOne} 
-                teamName="frank" 
-                occupation="Software Engineer" />
-                {/* <Teamimages 
-                img={teamImgOne} 
-                teamName="frank" 
-                occupation="Software Engineer" /> */}
+              
                 </div>
             </div>
         </div>

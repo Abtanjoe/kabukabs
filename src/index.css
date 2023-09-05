@@ -196,6 +196,8 @@ ol li {
   padding-top: 1rem;
 }
 
+
+
 /* start of Road map cards */
 
 .cards {
@@ -236,7 +238,6 @@ ol li {
 }
 
 .card p {
-  /* font-size: 1.625em; */
   font-size: 1.2em;
   line-height: 2rem;
 }
@@ -261,6 +262,8 @@ button {
 /*end of second screen section*/
 
 
+
+
 /*start of Team member section */
 
 .team {
@@ -279,7 +282,6 @@ button {
 
 .team h1 {
   line-height: 60px;
-  /* margin: 0rem 27rem 0rem 27rem; */
 }
 
 .team p {
@@ -287,7 +289,6 @@ button {
   line-height: 39px;
   font-size: 26px;
   font-weight: 400;
-  /* margin: 0rem 15rem 0rem 15rem; */
 }
 
 .allMembers {
@@ -318,6 +319,7 @@ button {
   height: 30rem;
   position: relative;
 }
+
 .team-member-name {
   position: absolute;
   bottom: -5%;
@@ -353,9 +355,9 @@ button {
   border-radius: 50%;
 }
 
-
-
 /*end of Team member section */
+
+
 
 /*start of form input section*/
 
@@ -425,7 +427,6 @@ button {
 
 .message button { 
   justify-self: right;
-  /* width: 203px; */
   padding: 1rem 0rem;
   margin: 3.5rem 0rem 0rem 0rem;
   font-size: 24px;
